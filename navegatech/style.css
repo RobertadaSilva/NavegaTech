@@ -1,0 +1,382 @@
+/*CSS Reset*/
+
+*{    margin:0;
+      padding:0;
+      border:0;}
+
+
+main{
+                              background-color: #fff;
+                              width: 100%;
+                              height: 3000px;}
+
+#fundo_home{
+                              margin: auto;
+                              width: 98%;
+                              height: 1024px;
+                              background-color: lightgrey;}
+                        
+header{
+                              position: relative;
+                              width: 100%;
+                              height: 70px;
+                              background-color: #000;}
+                        
+.img1{
+                              float:left;
+                              position: relative;
+                              margin-top: 13px;
+                              margin-left: 70px;}
+                        
+.img2{
+                              position: absolute;
+                              float: left;
+                              width: 35px;
+                              height: 35px;
+                              margin-top: 20px;
+                              margin-left: 120px;
+                              z-index: 1;}
+                  
+.img3{
+                              position: relative;
+                              margin-top: -458px;
+                              margin-left: 800px;}
+                              
+nav a{
+                              width: 15%;
+                              position: relative;
+                              margin-left: 20px;
+                              float: left;
+                              color: white;
+                              line-height: 76px;
+                              text-align: center;
+                              font-size: 15px;
+                              font-family: Lucida sans;
+                              font-weight: lighter;
+                              text-decoration: none;}
+                        
+nav a:hover{
+                              background-color: white;
+                              color: black;
+                              transition: 1s all;}
+                        
+#meio{
+                              position: relative;
+                              width: 100%;
+                              height: 954px;
+                              background-color: #9ABCFF;}
+                        
+#meio h1{
+                              font-family: Franklin Gothic;
+                              font-weight: normal;}
+                        
+.servico_qualidade{
+                              position: relative;
+                              color: white;
+                              padding-top:200px ; 
+                              margin-left: 260px;
+                              font-size: 45px;
+                              text-align: justify;}
+
+.garantia{
+                              position: relative;
+                              color: white;
+                              margin-left: 390px;
+                              font-size: 45px;
+                              text-align: justify;}
+
+.assistencia_tecnica{
+                              position: relative;
+                              color: white;
+                              margin-top: 70px;
+                              margin-left: 243px;
+                              font-size: 30px;
+                              text-align: justify;}
+
+.equipamento{
+                              position: relative;
+                              color: white;
+                              margin-left: 300px;
+                              font-size: 30px;
+                              text-align: justify;}
+                        
+#imagem_quemsomos img{  
+                              position: absolute;
+                              top: 1200px;
+                              left: 70%;
+                              width:350px;
+                              height:350px;}
+
+#fundosomos{
+                              margin: auto;
+                              width: 98%;
+                              height: 1024px;
+                              background-color: #fff;
+                              font-size: 35px;
+                              padding-top: 90px;
+                              margin-left: 30px;}		
+                  
+#fundo_azul{
+                              position:relative;
+                              background-color:#E8EEFF;
+                              width:98%;
+                              height:900px;
+                              margin:auto;}
+
+.titulo_porque{
+                              text-align: center;
+                              font-size: 40px;
+                              color: #000;
+                              height: 600px;
+                              padding-top: 70px;}
+
+#painel_flutuante_1{
+                              position:absolute;
+                              background-color:#ECECEC;
+                              width:180px;
+                              height:410px;
+                              top:200px;
+                              left:90px;
+                              padding:30px;
+                              text-align:center;
+                              font-family:tohama,arial;
+                              color:#000;
+                              font-size:14pt;
+                              border-radius:10px;
+                              border: solid 1px #E1E1E1;
+                              z-index:1;}
+
+#painel_flutuante_1 img{
+                              padding-left:25%;
+                              padding-right:40px;
+                              width:60px;
+                              height:60px;}
+
+#painel_flutuante_2{
+                              position:absolute;
+                              background-color:#ECECEC;
+                              width:180px;
+                              height:410px;
+                              top:200px;
+                              left:400px;
+                              padding:30px;
+                              text-align:center;
+                              font-family:tohama,arial;
+                              color:#000;
+                              font-size:14pt;
+                              border-radius:10px;
+                              border: solid 1px #E1E1E1;}
+                  
+#painel_flutuante_2 img{
+                              padding-left:25%;
+                              padding-right:40px;
+                              width:60px;
+                              height:60px;}
+
+#painel_flutuante_3{
+                              position:absolute;
+                              background-color:#ECECEC;
+                              width:180px;
+                              height:409px;
+                              top:200px;
+                              left:710px;
+                              padding:30px;
+                              text-align:center;
+                              font-family:tohama,arial;
+                              color:#000;
+                              font-size:14pt;
+                              border-radius:10px;
+                              border: solid 1px #E1E1E1;}
+
+#painel_flutuante_3 img{
+                              padding-left:25%;
+                              padding-right:40px;
+                              width:60px;
+                              height:60px;}
+
+#painel_flutuante_4{
+                              position:absolute;
+                              background-color:#ECECEC;
+                              width:180px;
+                              height:410px;
+                              top:200px;
+                              left:1020px;
+                              padding:30px;
+                              text-align:center;
+                              font-family:tohama,arial;
+                              color:#000;
+                              font-size:14pt;
+                              border-radius:10px;
+                              border: solid 1px #E1E1E1;
+                              z-index:2;}
+
+#painel_flutuante_4 img{
+                              padding-left:25%;
+                              padding-right:40px;
+                              width:60px;
+                              height:60px;}
+                        
+#servicos{        
+                              background-color:#fff;
+                              width:98%;
+                              height:1024px;}                      
+
+.titulo_servicos{
+                              text-align: center;
+                              padding-top: 124px;
+                              padding-bottom: 1240px;
+                              font-size: 40px;}
+
+#imagem-texto1{
+                              position: absolute;
+                              text-align:center;
+                              left: 150px; 
+                              top: 3300px;
+                              font-size: 19pt;}
+ 
+#imagem-texto1 img{
+                              width: 80%;
+                              height: 100%;}
+
+#imagem-texto2{
+                              position:absolute;
+                              text-align:center;
+                              left: 700px;
+                              top: 3300px;
+                              font-size: 20pt;}
+
+#imagem-texto2 img{
+                              width: 80%;
+                              height: 100%;}
+
+#fundo_contato{
+                              position:relative;
+                              background-color:#9ABCFF;
+                              width:98%;
+                              height:440px;
+                              margin:auto;}
+            
+#contato{
+                              position:absolute;
+                              left:250px;
+                              top:50px;
+                              text-align:center;
+                              font-family:arial;
+                              color:#fff;
+                              font-size:20px;}
+      
+#email{
+                              position:absolute;
+                              left:230px;
+                              top:180px;
+                              font-family:arial;
+                              color:#fff;}
+      
+#envelope_contato img{
+                              width:50px; 
+                              height:50px;
+                              position:absolute;
+                              left:160px;
+                              top:160px;}
+      
+      
+#wpp img{
+                              width:50px;
+                              height:50px;
+                              position:absolute;
+                              left:160px;
+                              top:235px;}
+      
+#numero_contato{
+                              position:absolute;
+                              left:230px;
+                              top:255px;
+                              font-family:arial;
+                              width:400px;
+                              height:100px;
+                              color:#fff;}
+      
+#divisoria_contato{
+                              position:absolute;
+                              left:500px;
+                              top:50px;
+                              width:1px;
+                              height:300px;
+                              background-color:#E8EEFF;}
+      
+#redes_sociais{
+                              position:absolute;
+                              left:550px;
+                              top:50px;
+                              width:300px;
+                              height:500px;
+                              text-align:center;
+                              font-family:arial;
+                              color:#fff;}
+      
+#facebook img{
+                              width:50px;
+                              height:50px;
+                              position:absolute;
+                              left:600px;
+                              top:160px;}
+      
+#insta img{
+                              width:50px;
+                              height:50px;
+                              position:absolute;
+                              left:675px;
+                              top:160px;}
+      
+#linkedin img{
+                              width:50px;
+                              height:50px;
+                              position:absolute;
+                              left:750px;
+                              top:160px;}
+      
+#divisoria2{
+                              position:absolute;
+                              left:900px;
+                              top:50px;
+                              width:1px;
+                              height:300px;
+                              background-color:#E8EEFF;}
+      
+#endereco{
+                              position:absolute;
+                              left:1000px;
+                              top:50px;
+                              width:100px;
+                              height:100px;
+                              text-align:center;
+                              font-family:arial;
+                              color:#fff;}
+      
+#localizacao_contato img{
+                              width:50px;
+                              height:50px;
+                              position:absolute;
+                              left:950px;
+                              top:160px;}
+      
+#rua{
+                              position:absolute;
+                              left:1020px;
+                              top:162px;
+                              width:300px;
+                              height:500px;
+                              font-family:arial;
+                              color:#fff;}   
+
+footer{
+                               position:absolute;
+                               left:0px;
+                               top:400px;
+                               width:100%;
+                               height:10%;
+                               background-color:#000;
+                               color:#792038;
+                               clear:left;}                  
+
+                        

@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="login.css"  type="text/css">
     <meta name="author" content="Roberta da Silva">
     <meta name="author" content="Gabriel Carloto">
     <meta name="author" content="Patrick Gonzales">
     <meta name="author" content="Estela Rodrigues">
-    <meta name="author" content="Karina">
+    <meta name="author" content="Karina Nunes">
 >
     <title>NavegaTech</title>
 </head>
 <body>
     
-
+<div id="mudar">
     <main>
 		<header>
 			<article>
 				<img class="img1" src="imagens/LOGO.png">
 				<nav>
-					<a href="index.html">HOME</a>
-					<a href="#">QUEM SOMOS?</a>
-					<a href="#">NOSSOS SERVIÇOS</a>
-					<a href="#">CONTATOS</a>
+					<a href="index.html">Home</a>
+					<a href="index.html #quem_somos">Quem Somos?</a>
+					<a href="index.html #servicos">Nossos Serviços</a>
+					<a href="index.html #contatos">Contatos</a>
 				</nav>
 				<a href=login.html>
 				<img class="img2" src="imagens/kindpng_2271313.png">
@@ -35,23 +36,30 @@
         <section id="meiologin">
             <p> Digite seu e-mail e senha para entrar<br>na sua conta. </p>
             <p class="cadastro"> Ainda não possui uma conta?<br>Registre-se agora!</p>
-            <h2>E-mail</h2>
-            <input class="email" type="text" placeholder="Digite aqui">
+            <h2 class="h2_cadastro">E-mail</h2> <!--login-->
+            <h2 class="h2_login">E-mail</h2> <!--cadastro-->
+            <h2 class="h2_senhacadastro">Senha</h2>
+            <h2 class="h2_confirmesuasenha">Confirme sua senha</h2>
+            <input class="email1" type="text" placeholder="Digite aqui"><!--cadastro-->
+            <input class="email2" type="text" placeholder="Digite aqui">
+            <input class="password2" type="password" placeholder="Digite aqui">
+            <input class="password2confirm" type="password" placeholder="Digite aqui">
             <br>
             <input class="checkbox" type="checkbox"> <h3 class="h3-1">Lembrar de mim</h3>
             <br>
-            <h2>Senha</h2> <input class="password" type="password" placeholder="Digite sua senha">
+            <h2 class="senha_login">Senha</h2> <input class="password" type="password" placeholder="Digite sua senha">
             <br>
             <span class="dif-h3">Esqueci minha senha</span>
             <br>           
-            <button>Entrar</button>    		
-            <hr class="linha">  
+            <button id="button1">Entrar</button>    		
+            <div class="linha"> </div>
+            <button id="button2">Cadastrar</button>
         </section>
         <footer id="rodapélogin">
-        	<a href="https://www.gov.br/governodigital/pt-br/acessibilidade-digital" target="_blank"><img class="img4"src="image/ACESSIBILIDADE.png"></a>
+        	<a href="https://www.gov.br/governodigital/pt-br/acessibilidade-digital" target="_blank"><img class="img4"src="imagens/ACESSIBILIDADE.png"></a>
         </footer>
     </main>
-
+</div>
 </body>
 </html>
 </body>

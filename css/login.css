@@ -1,0 +1,271 @@
+/*css reset*/
+
+*{
+
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+
+/*cabeçalho*/
+
+header{
+	padding-top: -20px;
+	position: relative;
+	width: 100%;
+	height: 75px;
+	background-color: #000;
+}
+
+.img1{
+	float:left;
+	position: relative;
+	margin-top: 13px;
+	margin-left: 70px;
+}
+
+.img2{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	margin-top: 20px;
+	margin-left: 120px;
+}
+
+nav a{
+	width: 15%;
+	position: relative;
+	margin-left: 20px;
+	float: left;
+	color: white;
+	line-height: 76px;
+	text-align: center;
+	font-size: 15px;
+	font-family: Lucida sans;
+	font-weight: lighter;
+	text-decoration: none;
+}
+
+nav a:hover{
+	background-color: white;
+	color: black;
+	transition: 1s all;
+}
+
+main{
+	padding-top: -30px;
+    position:relative;
+    width:100%;
+    height:730px;
+    background-color:#2861D4;
+    margin:auto;
+}
+
+#meiologin{
+    position:relative;
+    font-family: Franklin Gothic;
+    font-size:28px;
+    background-color: white;
+    width: 65%;
+    height: 75%;
+    border:1px solid black;
+    margin: auto;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.h2_cadastro{
+	font-size: 25px;
+	margin-left: 63%;
+}
+
+.h2_login{
+	font-size: 25px;
+	margin-left: 13.5%;
+
+}
+
+#meiologin h3{
+	font-size: 12px;
+	font-weight: lighter;
+	margin-left: 150px;
+	margin-top: -20px;
+}
+
+.dif-h3{
+	padding-bottom: 30px;
+	font-size: 12px;
+	font-weight: lighter;
+	margin-left: 265px;
+	margin-top: -20px;
+	text-decoration: underline;
+	opacity: 0.75;
+}
+
+
+
+#meiologin h4{
+	font-size: 25px;
+	margin-left: 63%;
+	margin-top: -27.5%;
+}
+
+main p{
+    padding-top: 5%;
+    margin: 3%;
+}
+
+.cadastro{
+    margin-left:45%;
+    margin-top: -14.5%;
+    margin-right: -50px; 
+    text-align:center;
+
+}
+
+.linha{
+	position: absolute;
+	background-color: black;
+	width: 0.05%;
+	height:80%;
+	left: 50%;
+	top: 10%;
+	opacity: 0.75;
+}
+
+.email1{	
+	position: absolute;
+	width: 25%;
+	height: 4%;
+	left: 131px;
+	margin-top: 0.5%;
+	margin-right: 80px;
+	background-color: lightgrey;
+	border-radius: 9px ;
+}
+
+.email2{
+	position: absolute;
+	width: 25%;
+	height: 4%;
+	left: 62.8%;
+	margin-top: -1.8%;
+	background-color: lightgrey;
+	border-radius: 9px;
+}
+
+.h2cadastro{
+	margin-left: 20px;
+}
+
+.checkbox{
+	margin-left: 13.25%;
+}
+
+.password{
+	position: absolute;
+	margin-top: 10px;
+	width: 25%;
+	height: 4%;
+	left: 130px;
+	background-color: lightgrey;
+	border-radius: 9px ;
+}
+
+.password2{
+	position: absolute;
+	margin-top: 10px;
+	width: 25%;
+	height: 4%;
+	left: 62.8%;
+	margin-top: 5.3%;
+	background-color: lightgrey;
+	border-radius: 9px ;
+}
+
+.password2confirm{
+	position: absolute;
+	margin-top: 10px;
+	width: 25%;
+	height: 4%;
+	left: 62.8%;
+	margin-top: 12.3%;
+	background-color: lightgrey;
+	border-radius: 9px ;
+}
+
+.senha_login{
+	font-size: 25px;
+	margin-left: 13.5%;
+	margin-bottom: -0.5%;
+}
+
+.h2_senhacadastro{
+	position: absolute;
+	font-size: 25px;
+	left: 63%;
+	margin-top: 1.3%;
+}
+
+.h2_confirmesuasenha{
+	position: absolute;
+	font-size: 25px;
+	left: 63%;
+	margin-top: 8.5%;
+}
+
+#button1{
+	position: relative;
+	margin-top: 20px;
+	margin-left: 160px;
+	width: 183px;
+	height: 41px;
+	border-radius: 28px;
+	font-size: 30px;
+	color: white;
+	background-color: black;
+}
+
+#button1:hover{
+	background-color: lightgrey;
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+	transition: 1s all;
+}
+
+#button2{
+	position: relative;
+	margin-top: 20px;
+	margin-left: 31%;
+	width: 183px;
+	height: 41px;
+	border-radius: 28px;
+	font-size: 30px;
+	color: white;
+	background-color: black;
+}
+
+#button2:hover{
+	background-color: lightgrey;
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+	transition: 1s all;
+}
+
+#rodapélogin{
+	width: 100%;
+	height: 50px;
+	background-color: #000;
+}
+
+.img4{
+	height:25px;
+	margin-top: 10px;
+	margin-left: 130px;
+}
+
+#mudar{
+	margin-top: -20px;
+}

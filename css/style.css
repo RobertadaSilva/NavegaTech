@@ -1,0 +1,452 @@
+/*CSS Reset*/
+
+*{    margin:0;
+      padding:0;
+      border:0;
+}
+
+html {
+
+      width: 100%;
+      height: auto;
+}
+
+
+main {
+      background-color: #fff;
+      width: 100%;
+      height: auto;
+}
+
+#fundo_home {
+      margin: auto;
+      width: 100%;
+      height: 730px;
+      background-color: lightgrey;
+}
+                        
+header {
+      position: relative;
+      width: 100%;
+      height: 75px;
+      background-color: #000;
+}
+                        
+.img1 {
+      float:left;
+      position: relative;
+      margin-top: 13px;
+      margin-left: 70px;
+}
+                        
+.img2 {
+      position: absolute;
+      float: left;
+      width: 35px;
+      height: 35px;
+      margin-top: 20px;
+      margin-left: 120px;
+      z-index: 1;
+}
+                  
+.img3 {
+      position: relative;
+      margin-top: -451px;
+      margin-left: 800px;
+}
+
+.img4 {
+
+      width: 800px;
+      height: 70px;
+      margin-top: -135px;
+      margin-left: -520px;
+}
+                              
+nav a {
+      width: 15%;
+      position: relative;
+      margin-left: 20px;
+      float: left;
+      color: white;
+      line-height: 76px;
+      text-align: center;
+      font-size: 15px;
+      font-family: Lucida sans;
+      font-weight: lighter;
+      text-decoration: none;
+}
+                        
+nav a:hover {
+      background-color: white;
+      color: black;
+      transition: 1s all;}
+                        
+#meio {
+      position: relative;
+      width: 100%;
+      height: 674px;
+      background-color: #2861D4;}
+                              
+#meio h1 {
+      font-family: Franklin Gothic;
+      font-weight: normal;}
+                        
+.servico_qualidade {
+      position: relative;
+      color: white;
+      padding-top:200px ; 
+      margin-left: 260px;
+      font-size: 45px;
+      text-align: justify;}
+
+.garantia {
+      position: relative;
+      color: white;
+      margin-left: 390px;
+      font-size: 45px;
+      text-align: justify;}
+
+.assistencia_tecnica {
+      position: relative;
+      color: white;
+      margin-top: 70px;
+      margin-left: 243px;
+      font-size: 30px;
+      text-align: justify;
+}
+
+.equipamento {
+      position: relative;
+      color: white;
+      margin-left: 300px;
+      font-size: 30px;
+      text-align: justify;
+}
+                        
+#imagem_quemsomos img {  
+      position: absolute;
+      top: 970px;
+      left:800px;
+      width:650px;
+      height:450px;
+}
+
+#fundosomos {
+      margin: auto;
+      width: 100%;
+      height: 742px;
+      background-color: white;
+      font-size: 35px;
+      padding-top: 85px;
+}		
+
+.h1quemsomos {
+
+      padding-top: 140px;
+      margin-left: 300px;
+}
+
+.pquemsomos {
+
+      margin-left: 150px;
+      text-align: left;
+}
+                  
+#fundo_azul {
+      position:relative;
+      background-color:#2861D4;
+      width:100%;
+      height:775px;
+      margin:auto;
+}
+
+.titulo_porque {
+      position: absolute;
+      text-align: center;
+      padding-left:480px ;
+      font-size: 40px;
+      color: white;
+      height: 600px;
+      padding-top: 90px;
+}
+
+h3 {
+      text-align:center;
+}
+
+
+#painel_flutuante_1 {
+      position:absolute;
+      background-color:#ffffff;
+      width:180px;
+      height:410px;
+      top:200px;
+      left:160px;
+      padding:30px;
+      text-align:left;
+      font-family:tohama,arial;
+      color:#000;
+      font-size:14pt;
+      border-radius:10px;
+      z-index:1;
+}
+
+#painel_flutuante_1 img {
+      padding-left:35%;
+      padding-right:40px;
+      width:60px;
+      height:60px;
+}
+
+#painel_flutuante_2 {
+      position:absolute;
+      background-color:#ffffff;
+      width:180px;
+      height:410px;
+      top:200px;
+      left:470px;
+      padding:30px;
+      text-align:left;
+      font-family:tohama,arial;
+      color:#000;
+      font-size:14pt;
+      border-radius:10px;
+      z-index:2;
+}
+
+#painel_flutuante_2 img {
+      padding-left:35%;
+      padding-right:40px;
+      width:60px;
+      height:60px;
+}
+
+#painel_flutuante_3 {
+      position:absolute;
+      background-color:#ffffff;
+      width:180px;
+      height:409px;
+      top:200px;
+      left:780px;
+      padding:30px;
+      text-align:left;
+      font-family:tohama,arial;
+      color:#000;
+      font-size:14pt;
+      border-radius:10px;
+      z-index:3;
+}
+
+#painel_flutuante_3 img {
+      padding-left:35%;
+      padding-right:40px;
+      width:60px;
+      height:60px;
+}
+
+#painel_flutuante_4 {
+      position:absolute;
+      background-color:#ffffff;
+      width:180px;
+      height:410px;
+      top:200px;
+      left:1090px;
+      padding:30px;
+      text-align:left;
+      font-family:tohama,arial;
+      color:#000;
+      font-size:14pt;
+      border-radius:10px;
+      z-index:4;
+}
+
+#painel_flutuante_4 img {
+      padding-left:35%;
+      padding-right:40px;
+      width:60px;
+      height:60px;
+}
+                        
+#servicos {        
+      background-color:#fff;
+      width:100%;
+      height:800px;
+}                      
+
+.titulo_servicos {
+      position: absolute;
+      text-align: center;
+      padding-top: 90px;
+      padding-bottom: 500px;
+      padding-left: 560px;
+      font-size: 40px;
+}
+
+#imagem-texto1 {
+      position: absolute;
+      text-align:center;
+      left: 150px; 
+      top: 2600px;
+      font-size: 19pt;
+}
+ 
+#imagem-texto1 img {
+      width: 80%;
+      height: 100%;
+}
+
+#imagem-texto2 {
+      position:absolute;
+      text-align:center;
+      left: 800px;
+      top: 2600px;
+      font-size: 20pt;
+}
+
+#imagem-texto2 img {
+      width: 80%;
+      height: 100%;
+}
+
+#fundo_contato {
+      position:relative;
+      background-color:#2861D4;
+      width:100%;
+      height:340px;
+      margin:auto;
+}
+            
+#contato {
+      position:absolute;
+      left:280px;
+      top:3200px;
+      text-align:center;
+      font-family:arial;
+      color:#fff;
+      font-size:20px;}
+      
+#email {
+      position:absolute;
+      left:280px;
+      top:3315px;
+      font-family:arial;
+      color:#fff;
+}
+      
+#envelope_contato img {
+      width:40px; 
+      height:40px;
+      position:absolute;
+      left:220px;
+      top:3305px;
+}
+          
+#wpp img {
+      width:40px;
+      height:40px;
+      position:absolute;
+      left:220px;
+      top:3365px;
+}
+      
+#numero_contato {
+      position:absolute;
+      left:280px;
+      top:3375px;
+      font-family:arial;
+      width:400px;
+      height:100px;
+      color:#fff;
+}
+      
+#divisoria_contato {
+      position:absolute;
+      left:530px;
+      top:3165px;
+      width:1px;
+      height:275px;
+      background-color:#E8EEFF;
+}
+      
+#redes_sociais {
+      position:absolute;
+      left:635px;
+      top:3200px;
+      text-align:center;
+      font-family:arial;
+      color:#fff;
+}
+      
+#facebook img {
+      width:40px;
+      height:40px;
+      position:absolute;
+      left:667px;
+      top:3305px;
+}
+      
+#insta img {
+      width:40px;
+      height:40px;
+      position:absolute;
+      left:742px;
+      top:3305px;
+}
+      
+#linkedin img {
+      width:40px;
+      height:40px;
+      position:absolute;
+      left:817px;
+      top:3305px;
+}
+      
+#divisoria2 {
+      position:absolute;
+      left:1000px;
+      top:3165px;
+      width:1px;
+      height:275px;
+      background-color:#E8EEFF;
+}
+      
+#endereco {
+      position:absolute;
+      left:1100px;
+      top:3200px;
+      width:100px;
+      height:100px;
+      text-align:center;
+      font-family:arial;
+      color:#fff;
+}
+      
+#localizacao_contato img {
+      width:40px;
+      height:40px;
+      position:absolute;
+      left:1050px;
+      top:3305px;
+}
+      
+#rua {
+      position:absolute;
+      left:1105px;
+      top:3300px;
+      width:200px;
+      font-family:arial;
+      color:#FFF;
+}   
+
+#rodapécontato {
+      position:relative;
+      width:100%;
+      height: 50px;
+      background-color:#000;
+}
+#rodapécontato img {
+      height:25px;
+      padding-top:15px;
+      margin-left:130px;
+}
